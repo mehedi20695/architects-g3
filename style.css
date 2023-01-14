@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-button {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    color: #FFFFFF;
+    text-align: center;
+    border-style: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Header,nav,ul,li styles start*/
+.header {
+    background-color: #FF900E1A;
+    margin-bottom: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+.header .primary-button {
+    margin-left: 200px;
+}
+
+/* Header,nav,ul,li styles end */
+
+
+/* architects styles start */
+.architects {
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.architects-title {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 20px;
+
+}
+
+.architects-description {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+    margin-top: 20px;
+}
+
+header img {
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 160px;
+    margin-bottom: 50px;
+}
+
+/* architects styles end */
+
+/* team image styles start */
+.teams {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.team-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin-left: 180px;
+}
+
+/* team image styles end */
+
+/* team feature styles start */
+
+.team-features {
+    text-align: left;
+    width: 537px;
+    height: 304px;
+    margin-right: 100px;
+}
+
+.feature-title {
+    margin-top: 200px;
+    margin-bottom: 30px;
+
+}
+
+.lst {
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.our {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.feat {
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.featue-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* team feature styles end */
+
+/* proposal styles start */
+
+.proposal {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 120px;
+}
+
+.proposal-container {
+    width: 580px;
+    height: 190px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.proposal-head {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.box {
+    background-color: #FF900E;
+    color: #FF900E;
+    width: 5px;
+    height: 106px;
+}
+
+.proposal-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.proposal-summary {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px
+}
+
+.proposal-hint {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+.hint-name {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.hint-details {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.proposal-image {
+    position: relative;
+    width: 100%;
+}
+
+.proposal-image img {
+    width: 708px;
+    height: 982px;
+}
+
+
+.proposal-image .primary-button {
+    width: 320px;
+    height: 200px;
+    position: absolute;
+    left: -10%;
+    bottom: -10%;
+}
+
+.proposal .primary-button span {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+/* proposal styles end */
