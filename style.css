@@ -263,6 +263,7 @@ header img {
     display: flex;
     gap: 5px;
     justify-content: space-evenly;
+    margin-bottom: 40px;
 }
 
 .box {
@@ -271,8 +272,143 @@ header img {
     border: 1px solid #FF900E;
     border-radius: 8px;
     text-align: center;
-    padding: 40px 2px 2px 2px;    
+    padding: 40px 2px 2px 2px;
 }
+
+@keyframes boxanimation {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
 .box:hover {
-    transform-style: flat;
+    background-color: red;
+    animation-name: boxanimation;
+    animation-duration: 15s;
+    transform: rotate(30deg)
 }
+
+/* boxes styles end */
+
+/* sponsers styles start */
+.sponser {
+    text-align: center;
+}
+
+.sponser-banner {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.bannere-details {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 40px;
+}
+
+.sponser-img {
+    display: flex;
+    gap: 5px;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+/* sponsers styles end */
+
+/* my section styles start */
+
+.my {
+    text-align: center;
+    background-color: khaki;
+    margin-bottom: 80px;
+}
+
+.reference {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #FF900E;
+}
+
+.reference-summary {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* my section styles end */
+
+/* footer styles start */
+footer {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    padding: 40px 300px;
+    margin-bottom: 200px;
+}
+
+/* footer styles end */
+
+/* mobile responsive styles start */
+
+@media screen and (max-width:576px) {
+     nav, nav ul{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .header .primary-button{
+        margin: 0;
+    }
+    .architects{
+        margin: 0;
+    }
+    header img{
+        margin-left: 0;
+    }
+    .teams{
+        flex-direction: column;
+        margin: 0;
+    }
+    .team-image{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0;
+    }
+    .feature-title{
+        margin-top: 10px;
+    }
+    .proposal{
+        flex-direction: column;
+    }
+    .proposal-container{
+        margin-left: 0;
+    }
+    .proposal-image {
+        margin-top: 600px;
+    }
+    .fact{
+        margin-left: 0;
+    }
+    .boxes, .sponser-img {
+        flex-direction: column;
+    }
+    footer{
+        padding: 0;
+    }
+}
+/* mobile responsive styles end */
